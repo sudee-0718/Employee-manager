@@ -1,0 +1,37 @@
+
+
+<div class="vbg ">
+    <div class="col-md-12">
+        <h3 class="mb-3 text-center emp">Create Employee</h3>
+    
+
+    <div class =" form-group input-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.name" class="form-control" placeholder="First Name"/>
+    </div>
+
+    <div class =" form-group input-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.lname" class="form-control" placeholder="Last Name"/>
+    </div>
+
+    <div class =" form-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.email" class="form-control" placeholder="Email"/>
+    </div>
+
+    <div class =" form-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.phone" class="form-control" placeholder="Phone"/>
+    </div>
+
+    <div class =" form-group input-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.post" class="form-control" placeholder="Post"/>
+    </div>
+
+    <div class =" form-group input-group fm">
+        <input type="text" [(ngModel)]= "employeeDetails.dept" class="form-control" placeholder="Department"/>
+    </div>
+
+    <div class="form-group fm fm-add">
+        <button class="btn btn-success btn-lg "  (click) ="addEmployee(employeeDetails)">Add</button>
+    </div>
+
+</div>
+</div>

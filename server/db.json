@@ -1,0 +1,58 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Michael ",
+      "email": "mike@gmail.com",
+      "phone": "9557682071",
+      "lname": "James",
+      "post": "Designer",
+      "dept": "Marketing"
+    },
+    {
+      "id": 3,
+      "name": "Nichol ",
+      "email": "nike@gmail.com",
+      "phone": "9775890133",
+      "lname": "Henry",
+      "post": "Representative",
+      "dept": "Sales"
+    },
+    {
+      "name": "Mary ",
+      "email": "mary56@gmail.com",
+      "phone": "9505421276",
+      "id": 5,
+      "lname": "Clark",
+      "post": "UI Designer",
+      "dept": "IT"
+    },
+    {
+      "name": "Tom ",
+      "email": "Tommy@yahoo.com",
+      "phone": "9123400565",
+      "id": 6,
+      "lname": "Wood",
+      "post": "Accountant",
+      "dept": "Finance"
+    },
+    {
+      "name": "Sam ",
+      "email": "Jsam@gmail.com",
+      "phone": "8675390065",
+      "id": 7,
+      "lname": "Joseph",
+      "post": "DevOps Engineer",
+      "dept": "IT"
+    },
+    {
+      "name": "Johnson",
+      "lname": "Felix",
+      "email": "",
+      "phone": "6858894356",
+      "post": "",
+      "dept": "",
+      "id": 8
+    }
+  ]
+}
