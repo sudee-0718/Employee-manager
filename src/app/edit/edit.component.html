@@ -3,7 +3,8 @@
 <div class="vbg">
     <div class="col-md-12">
         <h3 class="mb-3 text-center emp">Update Employee</h3>
-
+<!-- since ngModel capable of 2 way data binding ,  here values in employeedata.name gets populated in the input 
+    fields and also captures changed values input and assign back to variables   -->
         <div class="form-group fm">
             <input type="text" [(ngModel)]= "employeeData.name" class="form-control" placeholder="First Name">
         </div>

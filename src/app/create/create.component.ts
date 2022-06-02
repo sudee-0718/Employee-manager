@@ -21,7 +21,8 @@ export class CreateComponent implements OnInit {
   }
 
   addEmployee(dataEmployee: any) {
-    this.restApi.createEmployee(this.employeeDetails).subscribe(data =>{ 
+    this.restApi.createEmployee(this.employeeDetails).subscribe(data =>{
+      console.log(data) //created employee object is returned by post method and stored in data variable
       this.router.navigate(['/view'])
     }) 
   }

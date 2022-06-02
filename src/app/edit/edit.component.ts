@@ -21,7 +21,7 @@ export class EditComponent implements OnInit {
 
   ngOnInit() {
     this.restApi.getEmployee(this.id).subscribe(data => {
-      this.employeeData = data;//details of a single employee is returned and stored in employeeData
+      this.employeeData = data;//details of a single employee(an object) is returned and stored in employeeData
       //and those details displayed in input fields before updation    
       console.log(this.employeeData);
     })  
@@ -33,6 +33,7 @@ export class EditComponent implements OnInit {
     if (window.confirm('Are you sure you want to update?')) {
       //id of selected employee and modifiied value in input fields passed with update method
       this.restApi.updateEmployee(this.id , this.employeeData).subscribe(data =>{
+        console.log(data) //put method returns the object (updatedemployee details ) and stores in data
         this.router.navigate(['/view'])
       })
     }

@@ -2,10 +2,10 @@
   "employees": [
     {
       "id": 2,
-      "name": "Michael ",
+      "name": "Henry",
       "email": "mike@gmail.com",
       "phone": "9557682071",
-      "lname": "James",
+      "lname": "David",
       "post": "Designer",
       "dept": "Marketing"
     },
@@ -16,7 +16,7 @@
       "phone": "9775890133",
       "lname": "Henry",
       "post": "Representative",
-      "dept": "Sales"
+      "dept": "Marketing"
     },
     {
       "name": "Mary ",
@@ -25,7 +25,7 @@
       "id": 5,
       "lname": "Clark",
       "post": "UI Designer",
-      "dept": "IT"
+      "dept": "DevOps Engineer"
     },
     {
       "name": "Tom ",
@@ -46,13 +46,22 @@
       "dept": "IT"
     },
     {
-      "name": "Johnson",
-      "lname": "Felix",
-      "email": "",
-      "phone": "6858894356",
-      "post": "",
-      "dept": "",
-      "id": 8
+      "name": "Kiran ",
+      "lname": "Raj",
+      "email": "kir@gmail.com",
+      "phone": "7678568879",
+      "post": "UX Designer ",
+      "dept": "Marketing",
+      "id": 9
+    },
+    {
+      "name": "Catherine ",
+      "lname": "Kate",
+      "email": "cathy@gmail.com",
+      "phone": "7854765985",
+      "post": "Senior Developer",
+      "dept": "App Development",
+      "id": 11
     }
   ]
 }
